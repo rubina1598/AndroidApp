@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    card_view:cardCornerRadius="4dp"
+
+    >
+
+
+    <RelativeLayout
+
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+      >
+
+        <ImageView
+            android:id="@+id/tUserSapling"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            card_view:srcCompat="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tUserUploaddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tUserSapling"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Uploaded on : 25auguest 1920"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tUserMarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tUserSapling"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="NA"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tuserNamem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tUserUploaddate"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Uploaded By : Zaid Rehmatpure"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tuserWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/tUserUploaddate"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/tuserNamem"
+            android:text="Week : 1"
+            android:textAlignment="textEnd"
+            android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

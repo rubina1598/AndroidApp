@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "333110128341",
+    "firebase_url": "https://mysapling-2ad23.firebaseio.com",
+    "project_id": "mysapling-2ad23",
+    "storage_bucket": "mysapling-2ad23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333110128341:android:fca21a75edfb6fd4d43c5c",
+        "android_client_info": {
+          "package_name": "com.hazyaz.mysapling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333110128341-gr3dvnqb5l21lkl2kknona8t9ose638s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hazyaz.mysapling",
+            "certificate_hash": "37d05c6340dbd5824af25f57f5c023fc2fa97f0a"
+          }
+        },
+        {
+          "client_id": "333110128341-e7ophnem3pfmfg2mg2gu3vj46pjm2sfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCirctek68-86uywEoHr7ry8W-Uc5OL_ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333110128341-e7ophnem3pfmfg2mg2gu3vj46pjm2sfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
