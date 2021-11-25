@@ -26,3 +26,14 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+plugins {
+  id "org.sonarqube" version "3.3"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "rubina1598_AndroidApp"
+    property "sonar.organization", "rubina1598"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
